@@ -1,0 +1,52 @@
+.day {
+    box-shadow: 0px 0px 1px black;
+    width: 12vw;
+    height: 125px;
+    background-color: #f6f4f3;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-align: right;
+    padding: 5px;
+}
+.day:hover {
+    box-shadow: 0px 0px 4px grey;
+}
+
+.chart-container {
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    right: 50%;
+    width: 100%;
+}
+
+.day-header {
+    margin-right: 5px;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
+
+.unfinished {
+    background-color: red;
+}
+.passed {
+    background-color: slategrey;
+}
+.finished {
+    background-color: greenyellow;
+}
+
+.week-headline {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 34px;
+    font-weight: 300;
+}
